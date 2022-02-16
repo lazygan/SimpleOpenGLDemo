@@ -1,0 +1,29 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"type": "shell",
+			"command": "cmake .. ; cmake --build . --config Release",
+			"options": {
+				"cwd": "./build/"
+			}
+		},
+		{
+			"label": "run",
+			"type": "shell",
+			"command" : "./Release/main.exe",
+			"dependsOn" : ["build"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "./build/"
+			}
+
+		}
+	]
+}

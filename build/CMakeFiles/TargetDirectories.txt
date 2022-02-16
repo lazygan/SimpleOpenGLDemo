@@ -1,0 +1,3 @@
+C:/Users/gangan/Desktop/shader_code/SimpleOpenGL/build/CMakeFiles/main.dir
+C:/Users/gangan/Desktop/shader_code/SimpleOpenGL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/gangan/Desktop/shader_code/SimpleOpenGL/build/CMakeFiles/ZERO_CHECK.dir

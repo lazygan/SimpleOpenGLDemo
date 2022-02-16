@@ -1,0 +1,10 @@
+^C:\USERS\GANGAN\DESKTOP\SHADER_CODE\SIMPLEOPENGL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/gangan/Desktop/shader_code/SimpleOpenGL -BC:/Users/gangan/Desktop/shader_code/SimpleOpenGL/build --check-stamp-file C:/Users/gangan/Desktop/shader_code/SimpleOpenGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
